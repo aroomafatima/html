@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <caption>Task 1: Basic contact from</caption>
+</head>
+<body>
+    <form method="post" action="ex1o.php">
+        Full Name: <input type="name" placeholder="full name">
+        <br>
+        Email Address: <input type="email"  placeholder="email">
+        <br>
+        Phone no.: <input type="tel"  placeholder="tell">
+        <br>
+        Message: <input type="text" placeholder="write somthing" >
+        <br>
+        <input type="submit" value="click here">
+    </form>
+    <caption>Task 2: Registration form with Dropdown</caption>
+    <br>
+    <form method="post" action="ex10.php">
+  Username  <input type="text" name="fname" placeholder="Username">
+  <br>
+  Password <input type="text" placeholder="password">
+  <br>
+  confirm Password:<input type="password" name="conform password" placeholder="Password">
+  <br>
+ choose country: <input list="countries" placeholder="select your country"> 
+<datalist id="countries">
+    <option value="Pakistan">
+        <option value="China">
+            <option value="Germany">
+                <option value="Turkey">
+</datalist>
+<br>
+<input type="checkbox">
+<input type="submit">
+    </form>
+    <caption>Task: Survey Form</caption>
+    <br>
+    <form>
+    <input type="radio" id="rating-5"  name="rating" value="5/"><label for="rating">5</label>
+    <input type="radio" id="rating-4"  name="rating" value="4" checked="checked"/><label for="rating-4">4</label>
+    <br>
+    recommend <input type="list" placeholder="?">
+    <datalist id="recommended">
+        <option value="Definitely">
+            <option value="May be">
+            <option value="Not at all">
+        </option>
+    </datalist>
+    <br>
+        comments <input type="text" placeholder="review">
+        <br>
+        <input type="checkbox">
+<br>
+<input type="submit">
+</body>
+</html>

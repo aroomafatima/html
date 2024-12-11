@@ -1,0 +1,35 @@
+.box {
+    border: 5px solid black;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.flex-container{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction:row;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    gap: 200px;
+
+}
+
+.box3{
+    height: 30vh;
+    background-color: blue;
+    align-self: first baseline;
+}
+.box4{
+    height: 70vh;
+    background-color: green;
+    align-self: self-end;
+}
+.box5{
+
+    background-color: blue;
+    align-self: last baseline;
+}

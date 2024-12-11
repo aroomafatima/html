@@ -1,0 +1,17 @@
+#ball{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    animation: bounce 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce {
+    from{
+        transform: translate3d(0,0,0);
+    }
+    to {
+        transform: translate3d(0,700px,0)scale(1.3);
+    }
+}

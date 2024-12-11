@@ -1,0 +1,39 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+.segment
+{
+    display: grid;
+    place-items: center;
+    text-allign:center;
+    grid-template-rows: 100px;
+}
+.twelve{
+background-color: lightseagreen;
+grid-column: 1/ span 12;
+}
+.twelve{
+    background-color: lightseagreen;
+    grid-column: 1/ span 8;
+    }
+.eight{
+        background-color: brown;
+        grid-column: 5/ span 8;
+        }
+.four{
+    grid-column: 1/span 4;
+    background-color: lightblue;
+}
+.six{
+    grid-column: 5/span 6;
+    background-color: bisque;
+}
+.seven{
+    grid-column: 3/span 7;
+    background-color: lightsteelblue;
+}
+.four{
+    grid-column: 1/span 4;
+    background-color: lightblue;
+}

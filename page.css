@@ -1,0 +1,18 @@
+.btn{
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    
+}
+.btn:hover{
+    background-color: brown;
+    
+}
+.btn:active{
+    background-color: green;
+}
+
+li:nth-of-type(odd){
+    color: lightseagreen;
+}
+

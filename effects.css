@@ -1,0 +1,28 @@
+body{
+    font-family: 'Trebuchet MS';
+}
+
+.text:hover{
+    overflow: visible;
+}
+.text
+{
+    border: 2px solid brown;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+body{
+    font-family: 'Trebuchet MS';
+}
+.vert{
+    writing-mode:vertical-rl;
+    box-shadow:  10px  10px  30px  rgb(116, 66, 75) ;
+}
+div {
+    box-shadow: 10px 10px 5px 12px lightblue;
+  }
+.div:active{
+    box-shadow: 0;
+}

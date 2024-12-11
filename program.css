@@ -1,0 +1,18 @@
+.box{
+    display: grid;
+    width: 240px;
+    height: 240px;
+    margin: 200px;
+    background-color: aquamarine;
+    border-radius: 12px;
+    border: solid green 4px;
+}
+.box:hover{
+    transform: translate(30px 100px);
+}
+.box:hover{
+    transform: translate(30px 100px);
+    background-color: blueviolet;
+    opacity: 50;
+    transition: 2s;
+}
